@@ -1,1 +1,0 @@
-# quantum neural network model

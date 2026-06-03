@@ -1,0 +1,3 @@
+Model,Parameters,Train acc,Test acc,Time (s)
+QCNN (PennyLane),92,0.965,0.880,302.2
+Classical CNN,385,1.000,0.980,0.9
