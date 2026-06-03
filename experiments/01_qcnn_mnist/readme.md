@@ -1,4 +1,4 @@
-# Experiment 06 — QCNN vs Classical CNN on MNIST (PennyLane)
+# Experiment 01 — QCNN vs Classical CNN on MNIST (PennyLane)
 
 ## Install
 
@@ -36,13 +36,12 @@ src/utils/mnist_loader.py        ← MNIST downsampling + angle encoding
                                   (8 pairs)  (8→4q)  (4 pairs)  (4→2q)
 ```
 
-Total trainable parameters: **90**
+Total trainable parameters: **92**
 
 ## Gradient methods
 
 | `DIFF_METHOD` | Speed | Hardware-compatible | Notes |
 |---|---|---|---|
-| `parameter-shift` | slow | ✓ yes | Exact gradients, use for hardware runs |
 | `backprop` | 3–5× faster | ✗ simulator only | Best for iterating locally |
 | `adjoint` | fastest | ✗ simulator only | `default.qubit` only |
 
