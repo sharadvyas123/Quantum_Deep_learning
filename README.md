@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-hi!!
-=======
 # Quantum Deep Learning & Machine Learning Research Project
 
 This project is a research-oriented exploration of Variational Quantum Circuits (VQCs) and Parameterized Quantum Circuits (PQCs) within Quantum Machine Learning (QML) workflows. The primary objective is to investigate optimization dynamics, training convergence characteristics, and practical feasibility on both local simulators and real quantum hardware.
@@ -99,4 +96,3 @@ To transition current exploratory scripts into this clean structure:
 1. **Source Code Extraction:** Extract helper logic from Jupyter notebooks into relevant files under `src/` (e.g., customized ansatz wrappers go to `src/circuits/ansatz.py`).
 2. **Result Isolation:** Save model weights (like `.model` files) under `results/models/` and performance logs under `results/logs/` instead of cluttering workspace directories.
 3. **Keep Notebooks Topic-Specific:** Organise future notebook sessions chronologically within numbered folders in `experiments/` to track research progression clearly.
->>>>>>> ec303024cdb01e5ac75d08f32cac07d33cc72bb5
