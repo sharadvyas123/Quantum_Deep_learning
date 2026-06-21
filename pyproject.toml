@@ -7,6 +7,7 @@ requires-python = ">=3.13"
 dependencies = [
     "matplotlib>=3.10.9",
     "numpy>=2.4.6",
+    "opencv-python>=4.13.0.92",
     "pandas>=3.0.3",
     "pennylane>=0.45.0",
     "pennylane-lightning>=0.45.0",
@@ -16,8 +17,11 @@ dependencies = [
     "qiskit-algorithms>=0.4.0",
     "qiskit-ibm-runtime>=0.47.0",
     "qiskit-machine-learning>=0.9.0",
+    "scikit-image>=0.26.0",
     "scikit-learn>=1.8.0",
     "scipy>=1.17.1",
+    "seaborn>=0.13.2",
     "tensorflow-cpu>=2.21.0",
     "torch>=2.12.0",
+    "torchvision>=0.27.0",
 ]
