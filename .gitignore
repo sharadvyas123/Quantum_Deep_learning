@@ -10,3 +10,5 @@ wheels/
 .venv
 
 dataset/
+
+quantum_epi_gan_prompt.md

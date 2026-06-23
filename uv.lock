@@ -192,6 +192,15 @@ wheels = [
 ]
 
 [[package]]
+name = "colorama"
+version = "0.4.6"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/d8/53/6f443c9a4a8358a93a6792e2acffb9d9d5cb0a5cfd8802644b7b1c9a02e4/colorama-0.4.6.tar.gz", hash = "sha256:08695f5cb7ed6e0531a20572697297273c47b8cae5a63ffc6d6ed5c201be6e44", size = 27697, upload-time = "2022-10-25T02:36:22.414Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/d1/d6/3965ed04c63042e047cb6a3e6ed1a63a35087b6a609aa3a15ed8ac56c221/colorama-0.4.6-py2.py3-none-any.whl", hash = "sha256:4f1d9991f5acc0ca119f9d443620b77f9d6b33703e51011c16baf57afb285fc6", size = 25335, upload-time = "2022-10-25T02:36:20.889Z" },
+]
+
+[[package]]
 name = "contourpy"
 version = "1.3.3"
 source = { registry = "https://pypi.org/simple" }
@@ -1302,6 +1311,7 @@ dependencies = [
     { name = "seaborn" },
     { name = "tensorflow-cpu" },
     { name = "torchvision" },
+    { name = "tqdm" },
 ]
 
 [package.metadata]
@@ -1324,6 +1334,7 @@ requires-dist = [
     { name = "seaborn", specifier = ">=0.13.2" },
     { name = "tensorflow-cpu", specifier = ">=2.21.0" },
     { name = "torchvision", specifier = ">=0.27.0" },
+    { name = "tqdm", specifier = ">=4.68.3" },
 ]
 
 [[package]]
@@ -2249,6 +2260,18 @@ wheels = [
     { url = "https://files.pythonhosted.org/packages/21/dd/d03ee9f9ee7bf11a8c7c776fb8e7fd6102f59c013791a2a4e5175bd6cba7/torchvision-0.27.0-cp314-cp314t-manylinux_2_28_aarch64.whl", hash = "sha256:b4c6bb0a670dcba017b3643e21902c9b8a1cc1c127d602f1488fa29ec3c6e865", size = 7790618, upload-time = "2026-05-13T14:56:44.721Z" },
     { url = "https://files.pythonhosted.org/packages/39/08/4002336a74742be70728603ec1769feb2b55e0d19c532c9ec9f92008de76/torchvision-0.27.0-cp314-cp314t-manylinux_2_28_x86_64.whl", hash = "sha256:1c2db4bde82bc48ebff73436a6adf34d4f809448268a70d9a1285f5c8f92313d", size = 7580217, upload-time = "2026-05-13T14:56:43.274Z" },
     { url = "https://files.pythonhosted.org/packages/ed/cb/4dd4783eb3565f526ba6e64b6f6ca26c00eacc924cdfe60455db9d91b84b/torchvision-0.27.0-cp314-cp314t-win_amd64.whl", hash = "sha256:72bf547e58ddb948689734eed6f4b6a2031f979dba4fb08e3690688b392e929f", size = 4226392, upload-time = "2026-05-13T14:56:40.235Z" },
+]
+
+[[package]]
+name = "tqdm"
+version = "4.68.3"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "colorama", marker = "sys_platform == 'win32'" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/87/d7/0535a28b1f5f24f6612fb3ff1e89fb1a8d160fee0f976e0aa6803862134b/tqdm-4.68.3.tar.gz", hash = "sha256:00dfa48452b6b6cfae3dd9885636c23d3422d1ec97c66d96818cbd5e0821d482", size = 170596, upload-time = "2026-06-17T07:36:52.105Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/d8/8e/bb97bb0c71802080bfc8952937d174e49cfc50de5c951dd47b2496f0dcdb/tqdm-4.68.3-py3-none-any.whl", hash = "sha256:39832cc2def2789a6f29df83f172db7416cea70052c0907a57801c5f2fdccb03", size = 78337, upload-time = "2026-06-17T07:36:50.132Z" },
 ]
 
 [[package]]
