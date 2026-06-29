@@ -1,0 +1,2 @@
+Model,SSIM,PSNR,FID,Wasserstein
+QuantumDiff-Skin,0.1489,9.32,252.02,4.2419
