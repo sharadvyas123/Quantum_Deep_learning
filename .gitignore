@@ -12,3 +12,4 @@ wheels/
 dataset/
 
 quantum_epi_gan_prompt.md
+pix2pix.pt

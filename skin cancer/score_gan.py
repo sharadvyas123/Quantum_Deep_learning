@@ -141,7 +141,7 @@ def evaluate_stage_vs_real(class_name, stage_dir_name, real_paths, n_eval=N_EVAL
 # ----------------------------------------------------------------------------
 # Run evaluation across all minority classes and all 3 pipeline stages
 # ----------------------------------------------------------------------------
-stages_to_eval = ["augmented", "denoised", "normalized"]  # Coarse, Denoised, Normalized
+stages_to_eval = ["normalized"]  # Coarse, Denoised, Normalized
 results = []
 
 print(f"Starting evaluation | classes={minority_classes} | stages={stages_to_eval} | N_EVAL={N_EVAL}")
