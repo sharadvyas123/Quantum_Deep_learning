@@ -1,0 +1,74 @@
+2026-06-26 11:24:45 | ================================================================================
+2026-06-26 11:24:45 | Starting Q-Pix2Pix training
+2026-06-26 11:24:45 | Device       : cuda
+2026-06-26 11:24:45 | Epochs       : 200
+2026-06-26 11:24:45 | Batch size   : 8
+2026-06-26 11:24:45 | L1 lambda    : 15.0
+2026-06-26 11:24:45 | Learning rate: 0.0002
+2026-06-26 11:24:45 | ================================================================================
+2026-06-26 11:24:46 | [Pix2Pix] Generator initialized.
+2026-06-26 11:24:46 | [Pix2Pix] Discriminator initialized.
+2026-06-26 12:20:24 | [Pix2Pix] Checkpoint saved at epoch 5 → c:\Users\shara\Desktop\paper_learning\skin cancer\checkpoints\pix2pix.pt
+2026-06-26 13:11:12 | [Pix2Pix] Epoch 010/200 | D_loss=1.2314 | G_loss=4.5600 | Time=609.65s
+2026-06-26 13:11:14 | [Pix2Pix] Checkpoint saved at epoch 10 → c:\Users\shara\Desktop\paper_learning\skin cancer\checkpoints\pix2pix.pt
+2026-06-26 14:01:49 | [Pix2Pix] Checkpoint saved at epoch 15 → c:\Users\shara\Desktop\paper_learning\skin cancer\checkpoints\pix2pix.pt
+2026-06-26 14:53:16 | [Pix2Pix] Epoch 020/200 | D_loss=1.2501 | G_loss=4.5790 | Time=624.14s
+2026-06-26 14:53:18 | [Pix2Pix] Checkpoint saved at epoch 20 → c:\Users\shara\Desktop\paper_learning\skin cancer\checkpoints\pix2pix.pt
+2026-06-26 15:45:21 | [Pix2Pix] Checkpoint saved at epoch 25 → c:\Users\shara\Desktop\paper_learning\skin cancer\checkpoints\pix2pix.pt
+2026-06-26 16:36:56 | [Pix2Pix] Epoch 030/200 | D_loss=1.2517 | G_loss=4.5787 | Time=618.03s
+2026-06-26 16:36:57 | [Pix2Pix] Checkpoint saved at epoch 30 → c:\Users\shara\Desktop\paper_learning\skin cancer\checkpoints\pix2pix.pt
+2026-06-26 17:28:52 | [Pix2Pix] Checkpoint saved at epoch 35 → c:\Users\shara\Desktop\paper_learning\skin cancer\checkpoints\pix2pix.pt
+2026-06-26 18:19:24 | [Pix2Pix] Epoch 040/200 | D_loss=1.2310 | G_loss=4.6333 | Time=602.46s
+2026-06-26 18:19:25 | [Pix2Pix] Checkpoint saved at epoch 40 → c:\Users\shara\Desktop\paper_learning\skin cancer\checkpoints\pix2pix.pt
+2026-06-26 19:10:12 | [Pix2Pix] Checkpoint saved at epoch 45 → c:\Users\shara\Desktop\paper_learning\skin cancer\checkpoints\pix2pix.pt
+2026-06-26 20:00:45 | [Pix2Pix] Epoch 050/200 | D_loss=1.2164 | G_loss=4.6536 | Time=605.28s
+2026-06-26 20:00:46 | [Pix2Pix] Checkpoint saved at epoch 50 → c:\Users\shara\Desktop\paper_learning\skin cancer\checkpoints\pix2pix.pt
+2026-06-26 20:51:01 | [Pix2Pix] Checkpoint saved at epoch 55 → c:\Users\shara\Desktop\paper_learning\skin cancer\checkpoints\pix2pix.pt
+2026-06-26 21:41:44 | [Pix2Pix] Epoch 060/200 | D_loss=1.2023 | G_loss=4.6931 | Time=609.55s
+2026-06-26 21:41:45 | [Pix2Pix] Checkpoint saved at epoch 60 → c:\Users\shara\Desktop\paper_learning\skin cancer\checkpoints\pix2pix.pt
+2026-06-26 22:32:32 | [Pix2Pix] Checkpoint saved at epoch 65 → c:\Users\shara\Desktop\paper_learning\skin cancer\checkpoints\pix2pix.pt
+2026-06-26 23:22:57 | [Pix2Pix] Epoch 070/200 | D_loss=1.1926 | G_loss=4.6848 | Time=602.82s
+2026-06-26 23:22:59 | [Pix2Pix] Checkpoint saved at epoch 70 → c:\Users\shara\Desktop\paper_learning\skin cancer\checkpoints\pix2pix.pt
+2026-06-27 00:13:47 | [Pix2Pix] Checkpoint saved at epoch 75 → c:\Users\shara\Desktop\paper_learning\skin cancer\checkpoints\pix2pix.pt
+2026-06-27 01:04:33 | [Pix2Pix] Epoch 080/200 | D_loss=1.1804 | G_loss=4.7199 | Time=608.77s
+2026-06-27 01:04:35 | [Pix2Pix] Checkpoint saved at epoch 80 → c:\Users\shara\Desktop\paper_learning\skin cancer\checkpoints\pix2pix.pt
+2026-06-27 01:55:24 | [Pix2Pix] Checkpoint saved at epoch 85 → c:\Users\shara\Desktop\paper_learning\skin cancer\checkpoints\pix2pix.pt
+2026-06-27 02:46:12 | [Pix2Pix] Epoch 090/200 | D_loss=1.1841 | G_loss=4.7258 | Time=613.75s
+2026-06-27 02:46:14 | [Pix2Pix] Checkpoint saved at epoch 90 → c:\Users\shara\Desktop\paper_learning\skin cancer\checkpoints\pix2pix.pt
+2026-06-27 03:37:01 | [Pix2Pix] Checkpoint saved at epoch 95 → c:\Users\shara\Desktop\paper_learning\skin cancer\checkpoints\pix2pix.pt
+2026-06-27 04:27:39 | [Pix2Pix] Epoch 100/200 | D_loss=1.1766 | G_loss=4.7456 | Time=607.18s
+2026-06-27 04:27:40 | [Pix2Pix] Checkpoint saved at epoch 100 → c:\Users\shara\Desktop\paper_learning\skin cancer\checkpoints\pix2pix.pt
+2026-06-27 05:18:24 | [Pix2Pix] Checkpoint saved at epoch 105 → c:\Users\shara\Desktop\paper_learning\skin cancer\checkpoints\pix2pix.pt
+2026-06-27 06:09:08 | [Pix2Pix] Epoch 110/200 | D_loss=1.1747 | G_loss=4.7361 | Time=608.95s
+2026-06-27 06:09:09 | [Pix2Pix] Checkpoint saved at epoch 110 → c:\Users\shara\Desktop\paper_learning\skin cancer\checkpoints\pix2pix.pt
+2026-06-27 07:00:03 | [Pix2Pix] Checkpoint saved at epoch 115 → c:\Users\shara\Desktop\paper_learning\skin cancer\checkpoints\pix2pix.pt
+2026-06-27 07:50:48 | [Pix2Pix] Epoch 120/200 | D_loss=1.1705 | G_loss=4.7398 | Time=609.22s
+2026-06-27 07:50:49 | [Pix2Pix] Checkpoint saved at epoch 120 → c:\Users\shara\Desktop\paper_learning\skin cancer\checkpoints\pix2pix.pt
+2026-06-27 08:41:40 | [Pix2Pix] Checkpoint saved at epoch 125 → c:\Users\shara\Desktop\paper_learning\skin cancer\checkpoints\pix2pix.pt
+2026-06-27 09:32:21 | [Pix2Pix] Epoch 130/200 | D_loss=1.1838 | G_loss=4.7322 | Time=607.28s
+2026-06-27 09:32:22 | [Pix2Pix] Checkpoint saved at epoch 130 → c:\Users\shara\Desktop\paper_learning\skin cancer\checkpoints\pix2pix.pt
+2026-06-27 10:23:02 | [Pix2Pix] Checkpoint saved at epoch 135 → c:\Users\shara\Desktop\paper_learning\skin cancer\checkpoints\pix2pix.pt
+2026-06-27 11:13:31 | [Pix2Pix] Epoch 140/200 | D_loss=1.1769 | G_loss=4.7332 | Time=603.17s
+2026-06-27 11:13:32 | [Pix2Pix] Checkpoint saved at epoch 140 → c:\Users\shara\Desktop\paper_learning\skin cancer\checkpoints\pix2pix.pt
+2026-06-27 12:04:01 | [Pix2Pix] Checkpoint saved at epoch 145 → c:\Users\shara\Desktop\paper_learning\skin cancer\checkpoints\pix2pix.pt
+2026-06-27 12:54:32 | [Pix2Pix] Epoch 150/200 | D_loss=1.1800 | G_loss=4.7358 | Time=604.25s
+2026-06-27 12:54:33 | [Pix2Pix] Checkpoint saved at epoch 150 → c:\Users\shara\Desktop\paper_learning\skin cancer\checkpoints\pix2pix.pt
+2026-06-27 13:45:02 | [Pix2Pix] Checkpoint saved at epoch 155 → c:\Users\shara\Desktop\paper_learning\skin cancer\checkpoints\pix2pix.pt
+2026-06-27 14:35:42 | [Pix2Pix] Epoch 160/200 | D_loss=1.1708 | G_loss=4.7359 | Time=617.29s
+2026-06-27 14:35:43 | [Pix2Pix] Checkpoint saved at epoch 160 → c:\Users\shara\Desktop\paper_learning\skin cancer\checkpoints\pix2pix.pt
+2026-06-27 15:27:54 | [Pix2Pix] Checkpoint saved at epoch 165 → c:\Users\shara\Desktop\paper_learning\skin cancer\checkpoints\pix2pix.pt
+2026-06-27 16:19:59 | [Pix2Pix] Epoch 170/200 | D_loss=1.1758 | G_loss=4.7277 | Time=624.79s
+2026-06-27 16:20:00 | [Pix2Pix] Checkpoint saved at epoch 170 → c:\Users\shara\Desktop\paper_learning\skin cancer\checkpoints\pix2pix.pt
+2026-06-27 17:12:08 | [Pix2Pix] Checkpoint saved at epoch 175 → c:\Users\shara\Desktop\paper_learning\skin cancer\checkpoints\pix2pix.pt
+2026-06-27 18:03:20 | [Pix2Pix] Epoch 180/200 | D_loss=1.1741 | G_loss=4.7335 | Time=610.00s
+2026-06-27 18:03:21 | [Pix2Pix] Checkpoint saved at epoch 180 → c:\Users\shara\Desktop\paper_learning\skin cancer\checkpoints\pix2pix.pt
+2026-06-27 18:54:18 | [Pix2Pix] Checkpoint saved at epoch 185 → c:\Users\shara\Desktop\paper_learning\skin cancer\checkpoints\pix2pix.pt
+2026-06-27 19:45:09 | [Pix2Pix] Epoch 190/200 | D_loss=1.1837 | G_loss=4.7204 | Time=612.20s
+2026-06-27 19:45:11 | [Pix2Pix] Checkpoint saved at epoch 190 → c:\Users\shara\Desktop\paper_learning\skin cancer\checkpoints\pix2pix.pt
+2026-06-27 20:35:56 | [Pix2Pix] Checkpoint saved at epoch 195 → c:\Users\shara\Desktop\paper_learning\skin cancer\checkpoints\pix2pix.pt
+2026-06-27 21:28:21 | [Pix2Pix] Epoch 200/200 | D_loss=1.1719 | G_loss=4.7576 | Time=632.19s
+2026-06-27 21:28:22 | [Pix2Pix] Checkpoint saved at epoch 200 → c:\Users\shara\Desktop\paper_learning\skin cancer\checkpoints\pix2pix.pt
+2026-06-27 21:28:22 | ================================================================================
+2026-06-27 21:28:22 | [Pix2Pix] Training completed.
+2026-06-27 21:28:22 | Total training time : 2043.61 min
+2026-06-27 21:28:22 | ================================================================================
