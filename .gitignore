@@ -13,3 +13,6 @@ dataset/
 
 quantum_epi_gan_prompt.md
 pix2pix.pt
+
+# Generated images from 50-epoch scoring run
+skin cancer/eval_50epochs/

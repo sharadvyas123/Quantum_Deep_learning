@@ -1,0 +1,7 @@
+class,stage,n_samples,ssim,psnr,fid_approx,wasserstein
+MEL,normalized,100,0.2958,14.65,169.66,0.0607
+BCC,normalized,100,0.3569,17.17,73.93,0.0242
+AKIEC,normalized,100,0.3136,16.62,93.71,0.0329
+BKL,normalized,100,0.3446,16.55,90.16,0.0356
+DF,normalized,100,0.4031,17.44,54.29,0.0225
+VASC,normalized,100,0.4851,16.38,52.01,0.0253
