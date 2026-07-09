@@ -9,10 +9,13 @@ wheels/
 # Virtual environments
 .venv
 
-dataset/
 
 quantum_epi_gan_prompt.md
 pix2pix.pt
 
+200_epochs_results/
+
 # Generated images from 50-epoch scoring run
-skin cancer/eval_50epochs/
+skin cancer/eval_50epochs/
+
+dataset/
