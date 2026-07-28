@@ -92,3 +92,123 @@
 2026-07-08 16:50:46 | [Pix2Pix] Checkpoint saved at epoch 25 → c:\Users\shara\Desktop\paper_learning\skin cancer\checkpoints\pix2pix.pt
 2026-07-08 18:18:44 | [Pix2Pix] Epoch 030/200 | D_loss=1.1080 | G_loss=4.0533 | Time=1047.63s
 2026-07-08 18:18:45 | [Pix2Pix] Checkpoint saved at epoch 30 → c:\Users\shara\Desktop\paper_learning\skin cancer\checkpoints\pix2pix.pt
+2026-07-27 20:49:13 | INFO     | EfficientNet-B3 HAM10000 Training Run
+2026-07-27 20:49:13 | INFO     | Device=cuda | IMG_SIZE=64 | BATCH_SIZE=8 | EPOCHS=30 | LR=0.0001 | SEED=42
+2026-07-27 20:49:13 | INFO     | ======================================================================
+2026-07-27 20:49:16 | INFO     | Split sizes -> Train: 37552 | Val: 4689 | Test: 4694
+2026-07-27 20:49:18 | INFO     | Model: EfficientNet-B3 | classifier in_features=1536 -> out_features=7
+2026-07-27 20:49:19 | INFO     | Starting training ...
+2026-07-27 20:52:19 | INFO     | Epoch [01/30] | Time: 180.6s | Train Loss: 1.4335  Train Acc: 47.78% | Val Loss: nan  Val Acc: 51.89%
+2026-07-27 20:52:20 | INFO     |   ✓ Checkpoint saved (val_acc=51.89%)
+2026-07-27 22:41:59 | INFO     | ======================================================================
+2026-07-27 22:41:59 | INFO     | EfficientNet-B3 HAM10000 Training Run
+2026-07-27 22:41:59 | INFO     | Device=cuda | IMG_SIZE=64 | BATCH_SIZE=8 | EPOCHS=30 | LR=0.0001 | SEED=42
+2026-07-27 22:41:59 | INFO     | ======================================================================
+2026-07-27 22:42:05 | INFO     | Split sizes -> Train: 37552 | Val: 4689 | Test: 4694
+2026-07-27 22:42:12 | INFO     | Model: EfficientNet-B3 | classifier in_features=1536 -> out_features=7
+2026-07-27 22:45:25 | INFO     | Epoch [01/30] | Time: 189.1s | Train Loss: 1.4335  Train Acc: 47.78% | Val Loss: nan  Val Acc: 51.89%
+2026-07-27 22:45:25 | INFO     |   ✓ Checkpoint saved (val_acc=51.89%)
+2026-07-27 22:49:05 | INFO     | Epoch [02/30] | Time: 220.2s | Train Loss: 1.2585  Train Acc: 54.15% | Val Loss: 2.4757  Val Acc: 53.32%
+2026-07-27 22:49:06 | INFO     |   ✓ Checkpoint saved (val_acc=53.32%)
+2026-07-27 22:52:27 | INFO     | Epoch [03/30] | Time: 201.8s | Train Loss: 1.2146  Train Acc: 55.74% | Val Loss: nan  Val Acc: 55.75%
+2026-07-27 22:52:27 | INFO     |   ✓ Checkpoint saved (val_acc=55.75%)
+2026-07-27 22:55:39 | INFO     | Epoch [04/30] | Time: 191.6s | Train Loss: 1.2003  Train Acc: 55.89% | Val Loss: 2.5912  Val Acc: 53.91%
+2026-07-27 22:58:45 | INFO     | Epoch [05/30] | Time: 186.2s | Train Loss: 1.1890  Train Acc: 56.60% | Val Loss: 2.8999  Val Acc: 56.43%
+2026-07-27 22:58:45 | INFO     |   ✓ Checkpoint saved (val_acc=56.43%)
+2026-07-27 22:58:45 | INFO     | Epoch 6: Unfreezing backbone for fine-tuning
+2026-07-27 23:05:05 | INFO     | Epoch [06/30] | Time: 380.2s | Train Loss: 1.0358  Train Acc: 62.51% | Val Loss: nan  Val Acc: 67.41%
+2026-07-27 23:05:06 | INFO     |   ✓ Checkpoint saved (val_acc=67.41%)
+2026-07-27 23:11:34 | INFO     | Epoch [07/30] | Time: 388.5s | Train Loss: 0.8345  Train Acc: 70.54% | Val Loss: nan  Val Acc: 78.12%
+2026-07-27 23:11:34 | INFO     |   ✓ Checkpoint saved (val_acc=78.12%)
+2026-07-27 23:18:00 | INFO     | Epoch [08/30] | Time: 385.3s | Train Loss: 0.6815  Train Acc: 76.26% | Val Loss: nan  Val Acc: 82.73%
+2026-07-27 23:18:00 | INFO     |   ✓ Checkpoint saved (val_acc=82.73%)
+2026-07-27 23:24:30 | INFO     | Epoch [09/30] | Time: 390.3s | Train Loss: 0.5857  Train Acc: 79.85% | Val Loss: nan  Val Acc: 86.22%
+2026-07-27 23:24:30 | INFO     |   ✓ Checkpoint saved (val_acc=86.22%)
+2026-07-27 23:30:56 | INFO     | Epoch [10/30] | Time: 386.2s | Train Loss: 0.5052  Train Acc: 82.87% | Val Loss: nan  Val Acc: 89.27%
+2026-07-27 23:30:56 | INFO     |   ✓ Checkpoint saved (val_acc=89.27%)
+2026-07-27 23:37:19 | INFO     | Epoch [11/30] | Time: 382.5s | Train Loss: 0.4414  Train Acc: 85.20% | Val Loss: 0.7613  Val Acc: 90.66%
+2026-07-27 23:37:19 | INFO     |   ✓ Checkpoint saved (val_acc=90.66%)
+2026-07-27 23:43:37 | INFO     | Epoch [12/30] | Time: 378.3s | Train Loss: 0.3997  Train Acc: 86.36% | Val Loss: nan  Val Acc: 91.32%
+2026-07-27 23:43:37 | INFO     |   ✓ Checkpoint saved (val_acc=91.32%)
+2026-07-27 23:49:55 | INFO     | Epoch [13/30] | Time: 377.4s | Train Loss: 0.3628  Train Acc: 87.76% | Val Loss: 0.7087  Val Acc: 92.09%
+2026-07-27 23:49:55 | INFO     |   ✓ Checkpoint saved (val_acc=92.09%)
+2026-07-27 23:56:13 | INFO     | Epoch [14/30] | Time: 377.7s | Train Loss: 0.3354  Train Acc: 88.82% | Val Loss: nan  Val Acc: 92.69%
+2026-07-27 23:56:13 | INFO     |   ✓ Checkpoint saved (val_acc=92.69%)
+2026-07-28 00:01:05 | INFO     | ======================================================================
+2026-07-28 00:01:05 | INFO     | EfficientNet-B3 HAM10000 Training Run
+2026-07-28 00:01:05 | INFO     | Device=cuda | IMG_SIZE=64 | BATCH_SIZE=8 | EPOCHS=30 | LR=0.0001 | SEED=42
+2026-07-28 00:01:05 | INFO     | ======================================================================
+2026-07-28 00:01:06 | INFO     | Split sizes -> Train: 37552 | Val: 4689 | Test: 4694
+2026-07-28 00:01:07 | INFO     | Model: EfficientNet-B3 | classifier in_features=1536 -> out_features=7
+2026-07-28 00:04:14 | INFO     | Epoch [01/30] | Time: 187.1s | Train Loss: 1.4335  Train Acc: 47.78% | Val Loss: 5.0362  Val Acc: 51.93%
+2026-07-28 00:04:14 | INFO     |   ✓ Checkpoint saved (val_acc=51.93%)
+2026-07-28 00:07:15 | INFO     | Epoch [02/30] | Time: 180.8s | Train Loss: 1.2585  Train Acc: 54.15% | Val Loss: 2.2112  Val Acc: 53.34%
+2026-07-28 00:07:15 | INFO     |   ✓ Checkpoint saved (val_acc=53.34%)
+2026-07-28 00:10:10 | INFO     | Epoch [03/30] | Time: 174.8s | Train Loss: 1.2146  Train Acc: 55.74% | Val Loss: 1.8483  Val Acc: 55.98%
+2026-07-28 00:10:10 | INFO     |   ✓ Checkpoint saved (val_acc=55.98%)
+2026-07-28 00:13:03 | INFO     | Epoch [04/30] | Time: 173.1s | Train Loss: 1.2003  Train Acc: 55.89% | Val Loss: 3.3865  Val Acc: 53.83%
+2026-07-28 00:15:56 | INFO     | Epoch [05/30] | Time: 172.8s | Train Loss: 1.1890  Train Acc: 56.60% | Val Loss: 2.5397  Val Acc: 56.39%
+2026-07-28 00:15:56 | INFO     |   ✓ Checkpoint saved (val_acc=56.39%)
+2026-07-28 00:15:56 | INFO     | Epoch 6: Unfreezing backbone for fine-tuning
+2026-07-28 00:22:09 | INFO     | Epoch [06/30] | Time: 373.2s | Train Loss: 1.0358  Train Acc: 62.51% | Val Loss: 4.8351  Val Acc: 67.52%
+2026-07-28 00:22:09 | INFO     |   ✓ Checkpoint saved (val_acc=67.52%)
+2026-07-28 00:28:30 | INFO     | Epoch [07/30] | Time: 381.2s | Train Loss: 0.8345  Train Acc: 70.54% | Val Loss: 1.5311  Val Acc: 77.95%
+2026-07-28 00:28:30 | INFO     |   ✓ Checkpoint saved (val_acc=77.95%)
+2026-07-28 00:34:50 | INFO     | Epoch [08/30] | Time: 380.2s | Train Loss: 0.6815  Train Acc: 76.26% | Val Loss: 1.1118  Val Acc: 82.77%
+2026-07-28 00:34:51 | INFO     |   ✓ Checkpoint saved (val_acc=82.77%)
+2026-07-28 00:41:11 | INFO     | Epoch [09/30] | Time: 380.6s | Train Loss: 0.5857  Train Acc: 79.85% | Val Loss: 3.8582  Val Acc: 86.39%
+2026-07-28 00:41:11 | INFO     |   ✓ Checkpoint saved (val_acc=86.39%)
+2026-07-28 00:47:34 | INFO     | Epoch [10/30] | Time: 382.4s | Train Loss: 0.5052  Train Acc: 82.87% | Val Loss: 0.4979  Val Acc: 89.36%
+2026-07-28 00:47:34 | INFO     |   ✓ Checkpoint saved (val_acc=89.36%)
+2026-07-28 00:53:52 | INFO     | Epoch [11/30] | Time: 378.6s | Train Loss: 0.4414  Train Acc: 85.20% | Val Loss: 0.6181  Val Acc: 90.57%
+2026-07-28 00:53:52 | INFO     |   ✓ Checkpoint saved (val_acc=90.57%)
+2026-07-28 01:00:17 | INFO     | Epoch [12/30] | Time: 384.9s | Train Loss: 0.3997  Train Acc: 86.36% | Val Loss: 3.1972  Val Acc: 91.26%
+2026-07-28 01:00:17 | INFO     |   ✓ Checkpoint saved (val_acc=91.26%)
+2026-07-28 01:06:37 | INFO     | Epoch [13/30] | Time: 379.3s | Train Loss: 0.3628  Train Acc: 87.76% | Val Loss: 0.8810  Val Acc: 92.13%
+2026-07-28 01:06:37 | INFO     |   ✓ Checkpoint saved (val_acc=92.13%)
+2026-07-28 01:12:57 | INFO     | Epoch [14/30] | Time: 380.4s | Train Loss: 0.3354  Train Acc: 88.82% | Val Loss: 1.6217  Val Acc: 92.71%
+2026-07-28 01:12:57 | INFO     |   ✓ Checkpoint saved (val_acc=92.71%)
+2026-07-28 01:19:17 | INFO     | Epoch [15/30] | Time: 380.0s | Train Loss: 0.3018  Train Acc: 89.93% | Val Loss: 5.4043  Val Acc: 92.88%
+2026-07-28 01:19:17 | INFO     |   ✓ Checkpoint saved (val_acc=92.88%)
+2026-07-28 01:25:37 | INFO     | Epoch [16/30] | Time: 380.1s | Train Loss: 0.2896  Train Acc: 90.34% | Val Loss: 0.4142  Val Acc: 93.84%
+2026-07-28 01:25:38 | INFO     |   ✓ Checkpoint saved (val_acc=93.84%)
+2026-07-28 01:31:57 | INFO     | Epoch [17/30] | Time: 379.7s | Train Loss: 0.2749  Train Acc: 90.87% | Val Loss: 0.3644  Val Acc: 94.07%
+2026-07-28 01:31:57 | INFO     |   ✓ Checkpoint saved (val_acc=94.07%)
+2026-07-28 01:38:22 | INFO     | Epoch [18/30] | Time: 385.1s | Train Loss: 0.2627  Train Acc: 91.15% | Val Loss: 2.1747  Val Acc: 93.07%
+2026-07-28 01:44:30 | INFO     | Epoch [19/30] | Time: 368.0s | Train Loss: 0.2512  Train Acc: 91.78% | Val Loss: 0.9812  Val Acc: 93.84%
+2026-07-28 01:50:34 | INFO     | Epoch [20/30] | Time: 363.2s | Train Loss: 0.2449  Train Acc: 91.69% | Val Loss: 1.1687  Val Acc: 93.88%
+2026-07-28 01:56:36 | INFO     | Epoch [21/30] | Time: 362.6s | Train Loss: 0.2409  Train Acc: 92.06% | Val Loss: 0.2697  Val Acc: 94.16%
+2026-07-28 01:56:36 | INFO     |   ✓ Checkpoint saved (val_acc=94.16%)
+2026-07-28 02:02:36 | INFO     | Epoch [22/30] | Time: 360.1s | Train Loss: 0.2332  Train Acc: 92.22% | Val Loss: 0.9313  Val Acc: 94.11%
+2026-07-28 02:08:47 | INFO     | Epoch [23/30] | Time: 371.1s | Train Loss: 0.2267  Train Acc: 92.22% | Val Loss: 2.7378  Val Acc: 93.90%
+2026-07-28 02:15:02 | INFO     | Epoch [24/30] | Time: 374.2s | Train Loss: 0.2225  Train Acc: 92.53% | Val Loss: 2.5792  Val Acc: 93.75%
+2026-07-28 02:21:15 | INFO     | Epoch [25/30] | Time: 373.3s | Train Loss: 0.2218  Train Acc: 92.53% | Val Loss: 0.6116  Val Acc: 94.26%
+2026-07-28 02:21:15 | INFO     |   ✓ Checkpoint saved (val_acc=94.26%)
+2026-07-28 02:27:28 | INFO     | Epoch [26/30] | Time: 373.3s | Train Loss: 0.2116  Train Acc: 92.91% | Val Loss: 1.9282  Val Acc: 94.50%
+2026-07-28 02:27:28 | INFO     |   ✓ Checkpoint saved (val_acc=94.50%)
+2026-07-28 02:33:35 | INFO     | Epoch [27/30] | Time: 366.9s | Train Loss: 0.2174  Train Acc: 92.55% | Val Loss: 0.8573  Val Acc: 94.16%
+2026-07-28 02:39:44 | INFO     | Epoch [28/30] | Time: 368.6s | Train Loss: 0.2303  Train Acc: 92.17% | Val Loss: 0.4715  Val Acc: 94.71%
+2026-07-28 02:39:44 | INFO     |   ✓ Checkpoint saved (val_acc=94.71%)
+2026-07-28 02:45:53 | INFO     | Epoch [29/30] | Time: 368.7s | Train Loss: 0.2215  Train Acc: 92.60% | Val Loss: 1.3880  Val Acc: 94.37%
+2026-07-28 02:51:58 | INFO     | Epoch [30/30] | Time: 364.8s | Train Loss: 0.2190  Train Acc: 92.78% | Val Loss: 0.3460  Val Acc: 94.26%
+2026-07-28 02:51:58 | INFO     | Training complete. Best val accuracy: 94.71%
+2026-07-28 02:51:58 | INFO     | Loaded best checkpoint: epoch=28, val_acc=94.71%
+2026-07-28 02:52:53 | INFO     | Test Accuracy: 94.38%
+2026-07-28 02:52:53 | INFO     | Classification Report:
+              precision    recall  f1-score   support
+
+         MEL     0.9622    0.8746    0.9163       670
+          NV     0.8165    0.9627    0.8836       670
+         BCC     0.9637    0.9508    0.9572       671
+       AKIEC     0.9923    0.9598    0.9758       671
+         BKL     0.9027    0.8852    0.8939       671
+          DF     0.9985    0.9881    0.9932       670
+        VASC     0.9970    0.9851    0.9910       671
+
+    accuracy                         0.9438      4694
+   macro avg     0.9476    0.9438    0.9444      4694
+weighted avg     0.9476    0.9438    0.9444      4694
+
+2026-07-28 02:52:53 | INFO     | Macro AUC-ROC: 0.9955 | Weighted AUC-ROC: 0.9955
+2026-07-28 02:52:53 | INFO     | Evaluation complete. Figures saved.
+2026-07-28 02:52:53 | INFO     | ======================================================================
