@@ -212,3 +212,54 @@ weighted avg     0.9476    0.9438    0.9444      4694
 2026-07-28 02:52:53 | INFO     | Macro AUC-ROC: 0.9955 | Weighted AUC-ROC: 0.9955
 2026-07-28 02:52:53 | INFO     | Evaluation complete. Figures saved.
 2026-07-28 02:52:53 | INFO     | ======================================================================
+2026-07-28 14:28:14 | INFO     | ======================================================================
+2026-07-28 14:28:14 | INFO     | DenseNet-121 HAM10000 Training Run
+2026-07-28 14:28:14 | INFO     | Device=cuda | IMG_SIZE=224 | BATCH_SIZE=8 | EPOCHS=30 | LR=0.0001 | SEED=42
+2026-07-28 14:28:14 | INFO     | ======================================================================
+2026-07-28 14:28:18 | INFO     | Split sizes -> Train: 37552 | Val: 4689 | Test: 4694
+2026-07-28 14:29:02 | INFO     | Model: DenseNet-121 | classifier in_features=1024 -> out_features=7
+2026-07-28 14:35:36 | INFO     | Epoch [01/30] | Time: 391.3s | Train Loss: 1.2555  Train Acc: 57.79% | Val Loss: 0.9994  Val Acc: 65.30%
+2026-07-28 14:35:37 | INFO     |   ✓ Checkpoint saved (val_acc=65.30%)
+2026-07-28 14:42:58 | INFO     | Epoch [02/30] | Time: 441.6s | Train Loss: 0.9454  Train Acc: 67.72% | Val Loss: 0.8525  Val Acc: 70.61%
+2026-07-28 14:42:58 | INFO     |   ✓ Checkpoint saved (val_acc=70.61%)
+2026-07-28 14:49:20 | INFO     | Epoch [03/30] | Time: 382.0s | Train Loss: 0.8584  Train Acc: 70.84% | Val Loss: 0.7829  Val Acc: 72.89%
+2026-07-28 14:49:20 | INFO     |   ✓ Checkpoint saved (val_acc=72.89%)
+2026-07-28 14:55:41 | INFO     | Epoch [04/30] | Time: 380.8s | Train Loss: 0.8238  Train Acc: 71.70% | Val Loss: 0.8102  Val Acc: 71.49%
+2026-07-28 15:01:58 | INFO     | Epoch [05/30] | Time: 376.5s | Train Loss: 0.7848  Train Acc: 72.92% | Val Loss: 0.7230  Val Acc: 73.98%
+2026-07-28 15:01:58 | INFO     |   ✓ Checkpoint saved (val_acc=73.98%)
+2026-07-28 15:01:58 | INFO     | Epoch 6: Unfreezing backbone for fine-tuning
+2026-07-28 15:14:23 | INFO     | Epoch [06/30] | Time: 745.3s | Train Loss: 0.3922  Train Acc: 87.11% | Val Loss: 0.1548  Val Acc: 94.58%
+2026-07-28 15:14:23 | INFO     |   ✓ Checkpoint saved (val_acc=94.58%)
+2026-07-28 15:26:49 | INFO     | Epoch [07/30] | Time: 745.5s | Train Loss: 0.2094  Train Acc: 93.09% | Val Loss: 0.1340  Val Acc: 95.09%
+2026-07-28 15:26:49 | INFO     |   ✓ Checkpoint saved (val_acc=95.09%)
+2026-07-28 15:39:11 | INFO     | Epoch [08/30] | Time: 742.5s | Train Loss: 0.1645  Train Acc: 94.49% | Val Loss: 0.1237  Val Acc: 95.61%
+2026-07-28 15:39:11 | INFO     |   ✓ Checkpoint saved (val_acc=95.61%)
+2026-07-28 15:51:06 | INFO     | Epoch [09/30] | Time: 714.9s | Train Loss: 0.1425  Train Acc: 95.08% | Val Loss: 0.1140  Val Acc: 95.93%
+2026-07-28 15:51:06 | INFO     |   ✓ Checkpoint saved (val_acc=95.93%)
+2026-07-28 16:02:19 | INFO     | Epoch [10/30] | Time: 672.5s | Train Loss: 0.1241  Train Acc: 95.74% | Val Loss: 0.1094  Val Acc: 96.14%
+2026-07-28 16:02:19 | INFO     |   ✓ Checkpoint saved (val_acc=96.14%)
+2026-07-28 16:13:12 | INFO     | Epoch [11/30] | Time: 652.7s | Train Loss: 0.1148  Train Acc: 96.10% | Val Loss: 0.1099  Val Acc: 95.76%
+2026-07-28 16:24:07 | INFO     | Epoch [12/30] | Time: 654.8s | Train Loss: 0.1054  Train Acc: 96.37% | Val Loss: 0.1073  Val Acc: 96.27%
+2026-07-28 16:24:07 | INFO     |   ✓ Checkpoint saved (val_acc=96.27%)
+2026-07-28 16:35:03 | INFO     | Epoch [13/30] | Time: 656.3s | Train Loss: 0.0952  Train Acc: 96.59% | Val Loss: 0.1066  Val Acc: 96.12%
+2026-07-28 16:46:02 | INFO     | Epoch [14/30] | Time: 658.8s | Train Loss: 0.0832  Train Acc: 97.13% | Val Loss: 0.1093  Val Acc: 96.16%
+2026-07-28 16:57:11 | INFO     | Epoch [15/30] | Time: 669.3s | Train Loss: 0.0815  Train Acc: 97.21% | Val Loss: 0.1024  Val Acc: 96.44%
+2026-07-28 16:57:11 | INFO     |   ✓ Checkpoint saved (val_acc=96.44%)
+2026-07-28 17:01:27 | INFO     | Loaded best checkpoint: epoch=15, val_acc=96.44%
+2026-07-28 17:01:59 | INFO     | Test Accuracy: 96.42%
+2026-07-28 17:02:22 | INFO     | Classification Report:
+              precision    recall  f1-score   support
+
+         MEL     0.9365    0.9239    0.9301       670
+          NV     0.8838    0.9761    0.9277       670
+         BCC     0.9865    0.9806    0.9836       671
+       AKIEC     0.9777    0.9806    0.9792       671
+         BKL     0.9821    0.9001    0.9393       671
+          DF     0.9940    0.9955    0.9948       670
+        VASC     0.9985    0.9925    0.9955       671
+
+    accuracy                         0.9642      4694
+   macro avg     0.9656    0.9642    0.9643      4694
+weighted avg     0.9656    0.9642    0.9643      4694
+
+2026-07-28 17:02:24 | INFO     | Macro AUC-ROC: 0.9986 | Weighted AUC-ROC: 0.9986

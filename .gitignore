@@ -10,7 +10,7 @@ wheels/
 .venv
 
 
-quantum_epi_gan_prompt.md
+prompts/
 pix2pix.pt
 
 200_epochs_results/
