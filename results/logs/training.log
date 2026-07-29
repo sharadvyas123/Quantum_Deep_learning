@@ -322,3 +322,102 @@ weighted avg     0.9608    0.9604    0.9605      4694
 2026-07-28 22:48:37 | INFO     |   AUC [VASC]: 0.9999
 2026-07-28 22:48:37 | INFO     | Macro AUC: 0.9984
 2026-07-28 22:50:03 | INFO     | Evaluation complete.
+2026-07-29 00:20:38 | INFO     | ======================================================================
+2026-07-29 00:20:38 | INFO     | Baseline CNN HAM10000 Training Run
+2026-07-29 00:20:38 | INFO     | Device=cuda | IMG_SIZE=224 | BATCH_SIZE=8 | EPOCHS=30 | LR=0.001 | SEED=42
+2026-07-29 00:20:38 | INFO     | ======================================================================
+2026-07-29 00:20:53 | INFO     | Split sizes -> Train: 37552 | Val: 4689 | Test: 4694
+2026-07-29 00:20:53 | INFO     |   [Train] MEL: 5365
+2026-07-29 00:20:53 | INFO     |   [Train] NV: 5365
+2026-07-29 00:20:53 | INFO     |   [Train] BCC: 5364
+2026-07-29 00:20:53 | INFO     |   [Train] AKIEC: 5365
+2026-07-29 00:20:53 | INFO     |   [Train] BKL: 5364
+2026-07-29 00:20:53 | INFO     |   [Train] DF: 5365
+2026-07-29 00:20:53 | INFO     |   [Train] VASC: 5364
+2026-07-29 00:20:53 | INFO     |   [Val] MEL: 670
+2026-07-29 00:20:53 | INFO     |   [Val] NV: 670
+2026-07-29 00:20:53 | INFO     |   [Val] BCC: 670
+2026-07-29 00:20:53 | INFO     |   [Val] AKIEC: 669
+2026-07-29 00:20:53 | INFO     |   [Val] BKL: 670
+2026-07-29 00:20:53 | INFO     |   [Val] DF: 670
+2026-07-29 00:20:53 | INFO     |   [Val] VASC: 670
+2026-07-29 00:20:53 | INFO     |   [Test] MEL: 670
+2026-07-29 00:20:53 | INFO     |   [Test] NV: 670
+2026-07-29 00:20:53 | INFO     |   [Test] BCC: 671
+2026-07-29 00:20:53 | INFO     |   [Test] AKIEC: 671
+2026-07-29 00:20:53 | INFO     |   [Test] BKL: 671
+2026-07-29 00:20:53 | INFO     |   [Test] DF: 670
+2026-07-29 00:20:53 | INFO     |   [Test] VASC: 671
+2026-07-29 00:21:03 | INFO     | Model: BaselineCNN | trainable params: 422,695
+2026-07-29 00:25:30 | INFO     | Epoch [01/30] | Time: 262.7s | Train Loss: 1.5135  Train Acc: 40.91% | Val Loss: 1.0448  Val Acc: 61.91%
+2026-07-29 00:25:30 | INFO     |   ✓ Checkpoint saved (val_acc=61.91%)
+2026-07-29 00:29:55 | INFO     | Epoch [02/30] | Time: 265.1s | Train Loss: 1.2405  Train Acc: 52.97% | Val Loss: 0.8745  Val Acc: 69.48%
+2026-07-29 00:29:55 | INFO     |   ✓ Checkpoint saved (val_acc=69.48%)
+2026-07-29 00:34:31 | INFO     | Epoch [03/30] | Time: 275.8s | Train Loss: 1.0274  Train Acc: 62.48% | Val Loss: 0.7325  Val Acc: 76.52%
+2026-07-29 00:34:31 | INFO     |   ✓ Checkpoint saved (val_acc=76.52%)
+2026-07-29 00:39:06 | INFO     | Epoch [04/30] | Time: 275.8s | Train Loss: 0.8273  Train Acc: 70.66% | Val Loss: 0.5235  Val Acc: 81.81%
+2026-07-29 00:39:06 | INFO     |   ✓ Checkpoint saved (val_acc=81.81%)
+2026-07-29 00:43:40 | INFO     | Epoch [05/30] | Time: 273.7s | Train Loss: 0.6688  Train Acc: 76.93% | Val Loss: 0.3700  Val Acc: 87.76%
+2026-07-29 00:43:40 | INFO     |   ✓ Checkpoint saved (val_acc=87.76%)
+2026-07-29 00:48:13 | INFO     | Epoch [06/30] | Time: 272.7s | Train Loss: 0.5708  Train Acc: 80.69% | Val Loss: 0.3306  Val Acc: 88.68%
+2026-07-29 00:48:13 | INFO     |   ✓ Checkpoint saved (val_acc=88.68%)
+2026-07-29 00:52:47 | INFO     | Epoch [07/30] | Time: 273.7s | Train Loss: 0.4926  Train Acc: 83.43% | Val Loss: 0.3681  Val Acc: 87.55%
+2026-07-29 00:57:21 | INFO     | Epoch [08/30] | Time: 274.1s | Train Loss: 0.4433  Train Acc: 85.30% | Val Loss: 0.2497  Val Acc: 91.94%
+2026-07-29 00:57:21 | INFO     |   ✓ Checkpoint saved (val_acc=91.94%)
+2026-07-29 01:01:55 | INFO     | Epoch [09/30] | Time: 274.1s | Train Loss: 0.4071  Train Acc: 86.66% | Val Loss: 0.3283  Val Acc: 88.93%
+2026-07-29 01:06:33 | INFO     | Epoch [10/30] | Time: 278.5s | Train Loss: 0.3673  Train Acc: 87.77% | Val Loss: 0.2251  Val Acc: 92.47%
+2026-07-29 01:06:33 | INFO     |   ✓ Checkpoint saved (val_acc=92.47%)
+2026-07-29 01:11:09 | INFO     | Epoch [11/30] | Time: 275.8s | Train Loss: 0.3358  Train Acc: 88.87% | Val Loss: 0.5320  Val Acc: 83.11%
+2026-07-29 01:15:46 | INFO     | Epoch [12/30] | Time: 277.1s | Train Loss: 0.3163  Train Acc: 89.49% | Val Loss: 0.2316  Val Acc: 92.11%
+2026-07-29 01:20:24 | INFO     | Epoch [13/30] | Time: 277.4s | Train Loss: 0.2975  Train Acc: 90.22% | Val Loss: 0.2021  Val Acc: 92.81%
+2026-07-29 01:20:24 | INFO     |   ✓ Checkpoint saved (val_acc=92.81%)
+2026-07-29 01:25:01 | INFO     | Epoch [14/30] | Time: 277.7s | Train Loss: 0.2725  Train Acc: 90.91% | Val Loss: 0.2513  Val Acc: 91.53%
+2026-07-29 01:29:39 | INFO     | Epoch [15/30] | Time: 277.6s | Train Loss: 0.2627  Train Acc: 91.25% | Val Loss: 0.2228  Val Acc: 91.58%
+2026-07-29 01:34:12 | INFO     | Epoch [16/30] | Time: 273.6s | Train Loss: 0.2551  Train Acc: 91.40% | Val Loss: 0.1778  Val Acc: 93.50%
+2026-07-29 01:34:12 | INFO     |   ✓ Checkpoint saved (val_acc=93.50%)
+2026-07-29 01:38:45 | INFO     | Epoch [17/30] | Time: 272.2s | Train Loss: 0.2373  Train Acc: 91.96% | Val Loss: 0.1849  Val Acc: 94.05%
+2026-07-29 01:38:45 | INFO     |   ✓ Checkpoint saved (val_acc=94.05%)
+2026-07-29 01:43:18 | INFO     | Epoch [18/30] | Time: 273.5s | Train Loss: 0.2393  Train Acc: 91.94% | Val Loss: 0.1787  Val Acc: 93.60%
+2026-07-29 01:47:53 | INFO     | Epoch [19/30] | Time: 274.9s | Train Loss: 0.2240  Train Acc: 92.48% | Val Loss: 0.1715  Val Acc: 93.67%
+2026-07-29 01:52:26 | INFO     | Epoch [20/30] | Time: 272.8s | Train Loss: 0.2127  Train Acc: 92.91% | Val Loss: 0.1682  Val Acc: 94.09%
+2026-07-29 01:52:26 | INFO     |   ✓ Checkpoint saved (val_acc=94.09%)
+2026-07-29 01:56:58 | INFO     | Epoch [21/30] | Time: 271.8s | Train Loss: 0.2100  Train Acc: 92.86% | Val Loss: 0.1629  Val Acc: 94.09%
+2026-07-29 02:01:32 | INFO     | Epoch [22/30] | Time: 273.9s | Train Loss: 0.2064  Train Acc: 92.90% | Val Loss: 0.1576  Val Acc: 94.24%
+2026-07-29 02:01:32 | INFO     |   ✓ Checkpoint saved (val_acc=94.24%)
+2026-07-29 02:06:05 | INFO     | Epoch [23/30] | Time: 272.9s | Train Loss: 0.1894  Train Acc: 93.44% | Val Loss: 0.1645  Val Acc: 94.18%
+2026-07-29 02:10:37 | INFO     | Epoch [24/30] | Time: 272.8s | Train Loss: 0.1947  Train Acc: 93.27% | Val Loss: 0.1644  Val Acc: 93.92%
+2026-07-29 02:15:10 | INFO     | Epoch [25/30] | Time: 273.0s | Train Loss: 0.1944  Train Acc: 93.28% | Val Loss: 0.1708  Val Acc: 93.96%
+2026-07-29 02:19:42 | INFO     | Epoch [26/30] | Time: 272.0s | Train Loss: 0.1907  Train Acc: 93.39% | Val Loss: 0.1604  Val Acc: 94.20%
+2026-07-29 02:24:15 | INFO     | Epoch [27/30] | Time: 273.0s | Train Loss: 0.1878  Train Acc: 93.50% | Val Loss: 0.1559  Val Acc: 94.31%
+2026-07-29 02:24:15 | INFO     |   ✓ Checkpoint saved (val_acc=94.31%)
+2026-07-29 02:28:51 | INFO     | Epoch [28/30] | Time: 275.5s | Train Loss: 0.1842  Train Acc: 93.51% | Val Loss: 0.1606  Val Acc: 94.22%
+2026-07-29 02:33:24 | INFO     | Epoch [29/30] | Time: 272.8s | Train Loss: 0.1834  Train Acc: 93.68% | Val Loss: 0.1575  Val Acc: 94.20%
+2026-07-29 02:37:59 | INFO     | Epoch [30/30] | Time: 275.6s | Train Loss: 0.1791  Train Acc: 93.73% | Val Loss: 0.1571  Val Acc: 94.35%
+2026-07-29 02:37:59 | INFO     |   ✓ Checkpoint saved (val_acc=94.35%)
+2026-07-29 02:37:59 | INFO     | Training complete.
+2026-07-29 02:38:00 | INFO     | Loaded checkpoint from epoch 30 (val_acc=94.35%)
+2026-07-29 02:38:11 | INFO     | Test Accuracy: 94.16%
+2026-07-29 02:38:11 | INFO     | 
+              precision    recall  f1-score   support
+
+         MEL     0.9617    0.8627    0.9095       670
+          NV     0.7764    0.9642    0.8602       670
+         BCC     0.9627    0.9613    0.9620       671
+       AKIEC     0.9923    0.9598    0.9758       671
+         BKL     0.9511    0.8703    0.9089       671
+          DF     1.0000    0.9866    0.9932       670
+        VASC     0.9925    0.9866    0.9895       671
+
+    accuracy                         0.9416      4694
+   macro avg     0.9481    0.9416    0.9427      4694
+weighted avg     0.9481    0.9416    0.9428      4694
+
+2026-07-29 02:38:11 | INFO     | Macro F1: 0.9427 | Weighted F1: 0.9428
+2026-07-29 02:38:11 | INFO     |   AUC [MEL]: 0.9917
+2026-07-29 02:38:11 | INFO     |   AUC [NV]: 0.9923
+2026-07-29 02:38:11 | INFO     |   AUC [BCC]: 0.9990
+2026-07-29 02:38:11 | INFO     |   AUC [AKIEC]: 0.9992
+2026-07-29 02:38:11 | INFO     |   AUC [BKL]: 0.9938
+2026-07-29 02:38:11 | INFO     |   AUC [DF]: 0.9997
+2026-07-29 02:38:11 | INFO     |   AUC [VASC]: 0.9993
+2026-07-29 02:38:11 | INFO     | Macro AUC: 0.9964
